@@ -100,5 +100,8 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+# AWS Elastic Beanstalk;  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html#eb-cli3-install-osx-homebrew
+brew install awsebcli
+
 # Remove outdated versions from the cellar.
 brew cleanup
