@@ -1,7 +1,6 @@
 # Open Chrome with no CORS security
 alias nosec='open -a Google\ Chrome --args --disable-web-security'
 
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."

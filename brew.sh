@@ -38,8 +38,8 @@ brew install wget --with-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+#brew install ringojs
+#brew install narwhal
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
@@ -102,6 +102,16 @@ brew install zopfli
 
 # AWS Elastic Beanstalk;  http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html#eb-cli3-install-osx-homebrew
 brew install awsebcli
+brew install heroku-toolbelt
+brew install nvm
+brew install zsh
+brew install zsh-completions
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+heroku update
+
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+chsh -s /bin/zsh
